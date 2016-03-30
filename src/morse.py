@@ -18,7 +18,7 @@ MORSE_ALPHABET = {'A': '.-',     'B': '-...',   'C': '-.-.',
                   '9': '----.',
                   ' ': '/',  # Turn spaces between words into slashes.
                   '@56ek ': '......',
-                  '@bitofnick': '-----'
+                  '@bitofnick': '------'
                   }
 
 INVERSE_MORSE_ALPHABET = dict((v, k) for (k, v) in MORSE_ALPHABET.items())
